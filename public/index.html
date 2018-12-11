@@ -2,39 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: #0062c4;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: red;
+        }
+
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: rgb(190, 10, 10);
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        footer {
+            background-color: #0058ca;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body>
+
+    <h1>Shane Hall</h1>
+
+    <p></p>
+
     <header>
-        <h1>Student Bio</h1>
-        <h2>Shane Hall</h2>
+        <h3>Student Bio</h3>
     </header>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://mail.google.com/mail/u/0?ui=2&ik=fb96dd4451&attid=0.1&permmsgid=msg-a:r-7664860523639857527&th=1679e40259f9450e&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-pnMmw_ffTS-fgeW34quF7bSb-5MMbDFuQx_H2zuE8q_jVyP1q3qMqzpNYw-cmFFAWkRQuFBmHDo4F9E3F14eIMqm_NC53J5-32fy6gMyrEQD_wfach3xqAmw&disp=emb&realattid=1679e3ffc20207cf5f01"
-            alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">A 18 year old junior coder that has a dream of being a game designer. I was born and
-                raised in Riverdale, GA, and graduated high school in May 30, 2018. During high school, I've
-                experienced the first steps of graphic designing. Recently, I've attended the Georgia Tech Coding
-                Bootcamp where I have learned different programs such as HTML, CSS, JavaScript, and MySQL. There were a
-                wide variety of functions we've discovered in those programs in the span of those three months which
-                granted me different coding abilities. </p>
-        </div>
-    </div>
 
     <section>
+
+        <article>
+            <h1>About Me</h1>
+            <p>A 18 year old junior coder that has a dream of being a game designer. I was born and
+                raised in Riverdale, GA, and graduated high school in May 30, 2018. During high school, I've
+                experienced the first steps of graphic designing. Recently, I've attended the Georgia Tech Coding
+                Bootcamp where I have learned different programs such as HTML, CSS, JavaScript, Jquery, Node and MySQL.
+                There were a
+                wide variety of functions we've discovered in those programs in the span of those three months which
+                granted me different coding abilities. There is still many things I must polish up on so I can improve
+                tremendously. I'm hoping to highlight most of my skills on using Javascript and Jquery the most. </p>
+        </article>
         <h3>Contact Info</h3>
         <ul>
-            <li><strong>Email:</strong>hallshane856@gmail.com</li>
-            <li><strong>Github</strong>@Shall9</li>
+            <li><strong>Email:</strong> hallshane856@gmail.com</li>
+            <li><strong>Github:</strong> https://github.com/Shall9</li>
+        </ul>
+        <h4>Project Info</h4>
+        <ul>
+            <li><strong>Project 1 Cryptpro:</strong> https://github.com/jtmccormick18/project1.git</li>
+            <li><strong>Project 2 GameDay Assist:</strong> https://gamedayassist.herokuapp.com/</li>
+        </ul>
+        <h5>Homework Info</h5>
+        <ul>
+            <li><strong>Jquery-Ajax: </strong> https://shall9.github.io/Jquery-Ajax/</li>
+            <li><strong>HW-Wireframe: </strong> https://shall9.github.io/HW-Wireframe/</li>
+            <li><strong>Bootstrap:</strong>  https://github.com/Shall9/Bootstrap.html/blob/master/portfolio.html</li>
         </ul>
     </section>
+    <footer>
+    </footer>
+
+
 </body>
 
 </html>
